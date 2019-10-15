@@ -1,9 +1,9 @@
 Bootstrap: docker
-From: registry.gitlab.com/rode0day/fuzzer-testing/honggfuzz_runner:rolling
+From: registry.gitlab.com/rode0day/fuzzer-testing/i386/honggfuzz:rolling
 
 %labels
     MAINTAINER Josh Bundt
-    DockerTagID e5f4112a9
+    DockerTagID bad92586b 
 
 %environment
     AFL_SKIP_CPUFREQ=1
