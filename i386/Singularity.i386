@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: registry.gitlab.com/rode0day/fuzzer-testing/i386/honggfuzz:rolling
+From: registry.gitlab.com/rode0day/fuzzer-testing/i386/honggfuzz_runner:rolling
 
 %labels
     MAINTAINER Josh Bundt
