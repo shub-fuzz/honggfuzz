@@ -3,7 +3,7 @@ From: registry.gitlab.com/rode0day/fuzzer-testing/honggfuzz_runner:16.04
 
 %labels
     MAINTAINER Josh Bundt
-    DockerTagID 8765ddb55
+    DockerTagID 30b9b25df
 
 %environment
     AFL_SKIP_CPUFREQ=1
